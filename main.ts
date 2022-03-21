@@ -7,7 +7,7 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.Shake, function () {
     magic_8_ball_answer = randint(0, 3)
     if (magic_8_ball_answer == 3) {
-        basic.showString("Only the future will tell ")
+        basic.showString("undecided")
     } else if (magic_8_ball_answer == 2) {
         basic.showString("Yes")
     } else if (magic_8_ball_answer == 1) {
